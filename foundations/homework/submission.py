@@ -1,5 +1,7 @@
 import collections
 import math
+from sets import Set
+from collections import defaultdict
 
 ############################################################
 # Problem 3a
@@ -12,7 +14,18 @@ def findAlphabeticallyLastWord(text):
     You might find max() and list comprehensions handy here.
     """
     # BEGIN_YOUR_CODE (our solution is 1 line of code, but don't worry if you deviate from this)
-    raise Exception("Not implemented yet")
+
+    words = text.split()
+    candidate = ""
+    for i, word in enumerate(words):
+        if i == 0:
+            candidate = word
+            continue
+
+        if max(candidate, word) != candidate:
+            candidate = word
+
+    return candidate
     # END_YOUR_CODE
 
 ############################################################
@@ -24,7 +37,8 @@ def euclideanDistance(loc1, loc2):
     are pairs of numbers (e.g., (3, 5)).
     """
     # BEGIN_YOUR_CODE (our solution is 1 line of code, but don't worry if you deviate from this)
-    raise Exception("Not implemented yet")
+    return math.sqrt((loc1[0] - loc2[0])**2 + (loc1[1] - loc2[1])**2)
+
     # END_YOUR_CODE
 
 ############################################################
@@ -50,7 +64,32 @@ def mutateSentences(sentence):
                 (reordered versions of this list are allowed)
     """
     # BEGIN_YOUR_CODE (our solution is 20 lines of code, but don't worry if you deviate from this)
-    raise Exception("Not implemented yet")
+    words = sentence.split()
+    cache = {} # string => set
+
+    def buildSentences(candidate):
+        res = Set()
+        curPath = candidate.split()
+
+        if candidate in cache:
+            return cache[candidate]
+
+        if len(curPath) == len(sentence.split()):
+            res.add(candidate)
+            return res
+
+        for word in words:
+            if len(candidate) == 0:
+                res = res.union(buildSentences(word))
+            elif curPath[-1] + " " + word in sentence:
+                res = res.union(buildSentences(candidate + " " + word))
+
+        cache[candidate] = res
+        return res
+
+    ans = buildSentences("")
+    return list(ans)
+
     # END_YOUR_CODE
 
 ############################################################
@@ -64,7 +103,9 @@ def sparseVectorDotProduct(v1, v2):
     This function will be useful later for linear classifiers.
     """
     # BEGIN_YOUR_CODE (our solution is 4 lines of code, but don't worry if you deviate from this)
-    raise Exception("Not implemented yet")
+    pairs = zip(v1.values(), v2.values())
+    return sum( i*j for i,j in pairs)
+
     # END_YOUR_CODE
 
 ############################################################
@@ -76,7 +117,12 @@ def incrementSparseVector(v1, scale, v2):
     This function will be useful later for linear classifiers.
     """
     # BEGIN_YOUR_CODE (our solution is 2 lines of code, but don't worry if you deviate from this)
-    raise Exception("Not implemented yet")
+    for key in v1.keys():
+        if key in v2:
+            v1[key] = v1[key] + scale * v2[key]
+    for key in v2.keys():
+        if key not in v1:
+            v1[key] = scale * v2[key]
     # END_YOUR_CODE
 
 ############################################################
@@ -89,7 +135,11 @@ def findSingletonWords(text):
     You might find it useful to use collections.defaultdict(int).
     """
     # BEGIN_YOUR_CODE (our solution is 4 lines of code, but don't worry if you deviate from this)
-    raise Exception("Not implemented yet")
+    d = defaultdict(int)
+    for w in text.split():
+        d[w] += 1
+
+    return set([k for k in d.keys() if d[k] == 1])
     # END_YOUR_CODE
 
 ############################################################
@@ -105,5 +155,25 @@ def computeLongestPalindromeLength(text):
     You should first define a recurrence before you start coding.
     """
     # BEGIN_YOUR_CODE (our solution is 19 lines of code, but don't worry if you deviate from this)
-    raise Exception("Not implemented yet")
+
+    cache = {} # (i,j) => i
+    def countLongestPalindrome(s, e, str):
+        if (s, e) in cache:
+            return cache[(s, e)]
+
+        if s > e:
+            return 0
+        if s == e:
+            return 1
+
+        res = 0
+        if str[s] == str[e]:
+            res = 2 + countLongestPalindrome(s+1, e-1, str)
+        else:
+            res = max(countLongestPalindrome(s+1, e, str), countLongestPalindrome(s, e-1, str))
+        cache[(s, e)] = res
+
+        return res
+
+    return countLongestPalindrome(0, len(text)-1, text)
     # END_YOUR_CODE

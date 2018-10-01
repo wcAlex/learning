@@ -119,6 +119,10 @@ def incrementSparseVector(v1, scale, v2):
     # BEGIN_YOUR_CODE (our solution is 2 lines of code, but don't worry if you deviate from this)
     for key in v1.keys():
         v1[key] = v1[key] + scale * v2[key]
+
+    for key in v2.keys():
+        if key not in v1:
+            v1[key] = scale * v2[key]
     # END_YOUR_CODE
 
 ############################################################
