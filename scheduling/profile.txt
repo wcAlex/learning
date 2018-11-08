@@ -1,0 +1,20 @@
+# Unit limit per quarter.
+minUnits 3
+maxUnits 5
+
+# These are the quarters that I need to fill. It is assumed that
+# the quarters are sorted in chronological order.
+register Win2018
+register Spr2019
+
+# Courses I've already taken
+taken CS221
+taken PHYSICS41
+
+# Courses that I'm requesting
+request EARTHSCI400 weight 5 # Win
+request EARTHSYS164 # Win
+request CS224N   # Aut
+request CS224S   # Spr
+
+

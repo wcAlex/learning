@@ -1,0 +1,140 @@
+=== home alone goes hollywood , a funny premise until the kids start pulling off stunts not even steven spielberg would know how to do . besides , real movie producers aren't this nice .
+Truth: -1, Prediction: 1 [WRONG]
+funny                         1 * 0.4 = 0.4
+real                          1 * 0.32 = 0.32
+start                         1 * 0.27 = 0.27
+spielberg                     1 * 0.25 = 0.25
+home                          1 * 0.23 = 0.23
+kids                          1 * 0.23 = 0.23
+know                          1 * 0.22 = 0.22
+steven                        1 * 0.22 = 0.22
+even                          1 * 0.16 = 0.16
+stunts                        1 * 0.12 = 0.12
+do                            1 * 0.08 = 0.08
+pulling                       1 * 0.06 = 0.06
+nice                          1 * 0.05 = 0.05
+until                         1 * 0.02 = 0.02
+a                             1 * -0.02 = -0.02
+producers                     1 * -0.02 = -0.02
+,                             2 * -0.01 = -0.02
+alone                         1 * -0.05 = -0.05
+.                             2 * -0.03 = -0.06
+this                          1 * -0.07 = -0.07
+would                         1 * -0.08 = -0.08
+aren't                        1 * -0.1 = -0.1
+to                            1 * -0.11 = -0.11
+off                           1 * -0.11 = -0.11
+the                           1 * -0.12 = -0.12
+how                           1 * -0.13 = -0.13
+not                           1 * -0.14 = -0.14
+movie                         1 * -0.16 = -0.16
+hollywood                     1 * -0.18 = -0.18
+premise                       1 * -0.22 = -0.22
+goes                          1 * -0.27 = -0.27
+besides                       1 * -0.28 = -0.28
+
+=== a perfectly competent and often imaginative film that lacks what little lilo & stitch had in spades -- charisma .
+Truth: 1, Prediction: -1 [WRONG]
+film                          1 * 0.36 = 0.36
+&                             1 * 0.32 = 0.32
+perfectly                     1 * 0.2 = 0.2
+stitch                        1 * 0.2 = 0.2
+lilo                          1 * 0.14 = 0.14
+charisma                      1 * 0.14 = 0.14
+--                            1 * 0.12 = 0.12
+often                         1 * 0.1 = 0.1
+and                           1 * 0.07 = 0.07
+what                          1 * 0.01 = 0.01
+spades                        1 * 0 = 0
+a                             1 * -0.02 = -0.02
+.                             1 * -0.03 = -0.03
+in                            1 * -0.06 = -0.06
+imaginative                   1 * -0.09 = -0.09
+that                          1 * -0.11 = -0.11
+competent                     1 * -0.16 = -0.16
+little                        1 * -0.32 = -0.32
+had                           1 * -0.34 = -0.34
+lacks                         1 * -0.56 = -0.56
+
+=== a heady , biting , be-bop ride through nighttime manhattan , a loquacious videologue of the modern male and the lengths to which he'll go to weave a protective cocoon around his own ego .
+Truth: 1, Prediction: -1 [WRONG]
+ride                          1 * 0.87 = 0.87
+modern                        1 * 0.2 = 0.2
+ego                           1 * 0.2 = 0.2
+of                            1 * 0.11 = 0.11
+and                           1 * 0.07 = 0.07
+he'll                         1 * 0.06 = 0.06
+through                       1 * 3.12250225676e-17 = 3.12250225676e-17
+cocoon                        1 * 0 = 0
+videologue                    1 * 0 = 0
+loquacious                    1 * 0 = 0
+lengths                       1 * 0 = 0
+protective                    1 * 0 = 0
+weave                         1 * 0 = 0
+nighttime                     1 * 0 = 0
+be-bop                        1 * 0 = 0
+heady                         1 * -0.02 = -0.02
+.                             1 * -0.03 = -0.03
+,                             3 * -0.01 = -0.03
+biting                        1 * -0.04 = -0.04
+a                             3 * -0.02 = -0.06
+which                         1 * -0.13 = -0.13
+manhattan                     1 * -0.13 = -0.13
+own                           1 * -0.13 = -0.13
+his                           1 * -0.17 = -0.17
+go                            1 * -0.2 = -0.2
+to                            2 * -0.11 = -0.22
+the                           2 * -0.12 = -0.24
+male                          1 * -0.29 = -0.29
+around                        1 * -0.35 = -0.35
+
+=== 'it's painful to watch witherspoon's talents wasting away inside unnecessary films like legally blonde and sweet home abomination , i mean , alabama . '
+Truth: -1, Prediction: 1 [WRONG]
+sweet                         1 * 0.55 = 0.55
+painful                       1 * 0.29 = 0.29
+home                          1 * 0.23 = 0.23
+films                         1 * 0.17 = 0.17
+and                           1 * 0.07 = 0.07
+inside                        1 * 0.07 = 0.07
+blonde                        1 * 0.06 = 0.06
+legally                       1 * 0.06 = 0.06
+mean                          1 * 0.03 = 0.03
+i                             1 * 0.01 = 0.01
+wasting                       1 * 0 = 0
+abomination                   1 * 0 = 0
+'it's                         1 * 0 = 0
+witherspoon's                 1 * 0 = 0
+alabama                       1 * 0.0 = 0.0
+talents                       1 * -0.01 = -0.01
+away                          1 * -0.02 = -0.02
+,                             2 * -0.01 = -0.02
+.                             1 * -0.03 = -0.03
+like                          1 * -0.1 = -0.1
+to                            1 * -0.11 = -0.11
+'                             1 * -0.13 = -0.13
+watch                         1 * -0.15 = -0.15
+unnecessary                   1 * -0.16 = -0.16
+
+=== wickedly funny , visually engrossing , never boring , this movie challenges us to think about the ways we consume pop culture .
+Truth: 1, Prediction: -1 [WRONG]
+culture                       1 * 0.46 = 0.46
+funny                         1 * 0.4 = 0.4
+ways                          1 * 0.31 = 0.31
+engrossing                    1 * 0.22 = 0.22
+us                            1 * 0.19 = 0.19
+wickedly                      1 * 0.17 = 0.17
+think                         1 * 0.04 = 0.04
+visually                      1 * 0.03 = 0.03
+challenges                    1 * 0.02 = 0.02
+we                            1 * 0.01 = 0.01
+consume                       1 * 0 = 0
+.                             1 * -0.03 = -0.03
+,                             3 * -0.01 = -0.03
+this                          1 * -0.07 = -0.07
+about                         1 * -0.1 = -0.1
+to                            1 * -0.11 = -0.11
+the                           1 * -0.12 = -0.12
+movie                         1 * -0.16 = -0.16
+pop                           1 * -0.2 = -0.2
+never                         1 * -0.4 = -0.4
+boring                        1 * -1.13 = -1.13
